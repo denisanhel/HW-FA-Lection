@@ -1,0 +1,62 @@
+.basic{
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    border: black solid 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+
+
+}
+
+.imgpepper{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.txt{
+    font-size: 40px;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+}
+
+.apple{
+    height: 300px;
+    width: 200px;
+    border: black solid 5px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgapple{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
