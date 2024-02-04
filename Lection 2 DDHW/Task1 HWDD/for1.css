@@ -1,11 +1,20 @@
-.basic{
-    width: 70%;
-    height: 500px;
-    background-color: white;
+
+.body{
     display: flex;
-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*чомусь не зміг перемістити в центр, ніби не реагує на те що я пишу*/
+
+.basic{
+    width: 60%;
+    height: 500px;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+
 
 }
 
@@ -14,19 +23,19 @@ align-items: center;
     width: 200px;
     border: black solid 5px;
     border-radius: 50px;
-    display: flex;
+
     justify-content: center;
     margin-top: 20px;
-
-
-
+    display: grid;
 
 }
 
-.imgpepper{
+.img{
     height: 100px;
     width: 100px;
     margin-top: 30px;
+
+
 }
 
 .txt{
@@ -35,27 +44,11 @@ align-items: center;
     display: flex;
     margin: auto;
     text-align: center;
-
 }
 
-.apple{
-    height: 300px;
-    width: 200px;
-    border: black solid 5px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-
+.text{
+    font-size: 30px;
 }
-
-.imgapple{
-    height: 100px;
-    width: 100px;
-    margin-top: 30px;
-}
-
-
-
 
 
 
