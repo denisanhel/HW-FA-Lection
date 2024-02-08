@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+.title{
+    font-size: 10px;
+
+
+}
+
+.txt{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 200px;
+    text-decoration: none;
+
+
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 200px;
+}
+
+.bottom{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 200px;
+}
+
+
+#red{
+    background-color: red;
+}
+
+
+#aqua{
+    background-color: aqua;
+}
+
+#green{
+    background-color: green;
+}
