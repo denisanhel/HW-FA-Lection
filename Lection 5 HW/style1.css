@@ -1,0 +1,84 @@
+.father{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card{
+    width: 21vw;
+    height: 52vh;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 270px;
+
+}
+
+
+.card1{
+    width: 21vw;
+    height: 52vh;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 270px;
+}
+
+.card2{
+    width: 21vw;
+    height: 52vh;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 270px;
+}
+
+
+
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.txt{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*-----------------------------------------HEAD-----------------------------------------*/
+
+
+.head {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -350px;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 21px;
+
+}
