@@ -1,0 +1,36 @@
+.first{
+    ol>li:nth-child(even){
+        color: pink}
+}
+
+.second{
+    ol>li:nth-child(odd){
+        font-size: 22px;
+    }
+}
+
+
+.third{
+    ol>li:nth-child(2n+4)::after{
+         content: "!";
+
+        /*Це для того щоб було видно знаки, цього в завданні не має*/
+        color: red;
+        font-size: 30px;
+        /*-------------------------------------------------------------*/
+     }
+
+}
+
+.fourth{
+    ol>li:last-child{
+        color: purple;
+    }
+}
+
+.fifth{
+    ol>li::first-letter{
+        color: red;
+        font-size: 30px;
+    }
+}
